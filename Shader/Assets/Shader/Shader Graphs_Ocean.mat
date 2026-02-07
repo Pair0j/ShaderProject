@@ -45,6 +45,8 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractStrength: 0.1
+    - _WaveSpeed: 1
+    - _WaveStrength: 0.06
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &5312782037842779771
