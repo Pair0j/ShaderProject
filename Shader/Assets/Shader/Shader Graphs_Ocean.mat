@@ -42,12 +42,20 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _DepthDistance: 1.2
+    - _DepthStrength: 1
+    - _NormalStrength: 1
+    - _NormalTiling: 4
+    - _PanSpeed: 0.03
     - _QueueControl: 0
     - _QueueOffset: 0
     - _RefractStrength: 0.1
     - _WaveSpeed: 1
-    - _WaveStrength: 0.06
-    m_Colors: []
+    - _WaveStrength: 0.08
+    m_Colors:
+    - _BottomColor: {r: 0.5372549, g: 0.6862745, b: 0.7137255, a: 1}
+    - _Color: {r: 0.13861692, g: 0.546697, b: 0.8396226, a: 0}
+    - _TopColor: {r: 0.14117648, g: 0.3647059, b: 0.61960787, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &5312782037842779771
 MonoBehaviour:
