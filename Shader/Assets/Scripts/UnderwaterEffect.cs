@@ -1,25 +1,26 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Rendering;
 
-public class UnderwaterController : MonoBehaviour
+public class UnderwaterEffect : MonoBehaviour
 {
-    public Volume underwaterVolume;
+    public Color waterColor = new Color(0, 0.4f, 0.7f, 0.6f);
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("MainCamera"))
-        {
-            RenderSettings.fog = true; // เปิดหมอก
-            underwaterVolume.weight = 1f; // เปิด Effect (สีฟ้า, เบี้ยว)
+    void OnTriggerEnter(Collider other) {
+
+        if(other.CompareTag("MainCamera")){
+        
+            RenderSettings.fog = true; 
+            RenderSettings.fogColor = waterColor;
+            RenderSettings.fogDensity = 0.1f;
+            Debug.Log("You are in");
         }
     }
 
-    void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("MainCamera"))
-        {
-            RenderSettings.fog = false; // ปิดหมอก
-            underwaterVolume.weight = 0f; // ปิด Effect
+    void OnTriggerExit(Collider other) {
+        if (other.CompareTag("MainCamera")) {
+            RenderSettings.fog = false;
+            Debug.Log("You are out");
         }
     }
 }
