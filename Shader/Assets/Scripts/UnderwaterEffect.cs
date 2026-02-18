@@ -12,7 +12,7 @@ public class UnderwaterEffect : MonoBehaviour
         
             RenderSettings.fog = true; 
             RenderSettings.fogColor = waterColor;
-            RenderSettings.fogDensity = 0.1f;
+            RenderSettings.fogDensity = 0.4f;
             Debug.Log("You are in");
         }
     }
