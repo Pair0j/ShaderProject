@@ -75,6 +75,24 @@ MonoBehaviour:
   rounded:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &-4470281771391267330
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eef2589f73b16d448bef7404515097a0, type: 3}
+  m_Name: BlurSetting
+  m_EditorClassIdentifier: 
+  active: 1
+  <displayName>k__BackingField: 
+  strength:
+    <fieldHash>k__BackingField: 49355616
+    m_OverrideState: 1
+    m_Value: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0

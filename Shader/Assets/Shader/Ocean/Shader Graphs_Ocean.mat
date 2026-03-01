@@ -13,7 +13,9 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _ALPHAPREMULTIPLY_ON
+  - _SURFACE_TYPE_TRANSPARENT
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -42,16 +44,30 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AlphaClip: 0
+    - _AlphaToMask: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _CastShadows: 0
+    - _Cull: 0
     - _DepthDistance: 1.2
     - _DepthStrength: 1
+    - _DstBlend: 10
     - _NormalStrength: 1
     - _NormalTiling: 4
     - _PanSpeed: 0.03
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _ReceiveShadows: 1
     - _RefractStrength: 0.1
+    - _SrcBlend: 1
+    - _Surface: 1
     - _WaveSpeed: 1
     - _WaveStrength: 0.08
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 1
     m_Colors:
     - _BottomColor: {r: 0.5372549, g: 0.6862745, b: 0.7137255, a: 1}
     - _Color: {r: 0.13861692, g: 0.546697, b: 0.8396226, a: 0}
