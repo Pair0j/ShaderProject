@@ -5075,8 +5075,8 @@
     "m_ObjectId": "abcc1556fc03407b8021748d70750c64",
     "m_Title": "Detect edges based on world-space noemals",
     "m_Position": {
-        "x": -1459.0,
-        "y": -304.0
+        "x": -1459.199951171875,
+        "y": -304.79998779296877
     }
 }
 
@@ -5517,8 +5517,8 @@
     "m_ObjectId": "bf047ca4b63c4715b4abb99720eaff3c",
     "m_Title": "Detect edges based on color",
     "m_Position": {
-        "x": -1455.0,
-        "y": 915.0001831054688
+        "x": -1455.199951171875,
+        "y": 913.599853515625
     }
 }
 

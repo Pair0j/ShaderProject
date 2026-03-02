@@ -250,6 +250,9 @@
         },
         {
             "m_Id": "8e36007601be442282b85c776e6d1dca"
+        },
+        {
+            "m_Id": "139504c35409420f81e942a238acafc7"
         }
     ],
     "m_StickyNoteDatas": [],
@@ -322,20 +325,6 @@
                     "m_Id": "57a9cfe8d46844b292086b5e0fe2381a"
                 },
                 "m_SlotId": 2
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "10513b99fd754379980076f698a96218"
-                },
-                "m_SlotId": 1
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "9cfde39c57a84a08a69421fdc57c9a5b"
-                },
-                "m_SlotId": 0
             }
         },
         {
@@ -627,7 +616,7 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "10513b99fd754379980076f698a96218"
+                    "m_Id": "9cfde39c57a84a08a69421fdc57c9a5b"
                 },
                 "m_SlotId": 0
             }
@@ -1341,7 +1330,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SplitNode",
     "m_ObjectId": "0686712c994d4839b20446f59379d249",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "139504c35409420f81e942a238acafc7"
     },
     "m_Name": "Split",
     "m_DrawState": {
@@ -1659,6 +1648,17 @@
         "m_SerializableColors": []
     },
     "m_OutputSpace": 0
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "139504c35409420f81e942a238acafc7",
+    "m_Title": "Wave",
+    "m_Position": {
+        "x": -2613.60009765625,
+        "y": -1476.0
+    }
 }
 
 {
@@ -2990,8 +2990,8 @@
     "m_ObjectId": "3f3e2e10d6e445b6b5fdcc782d3784b8",
     "m_Title": "Base color",
     "m_Position": {
-        "x": -2852.0,
-        "y": -188.0
+        "x": -2852.800048828125,
+        "y": -188.79998779296876
     }
 }
 
@@ -3048,7 +3048,7 @@
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "428ccf08006f49978b93f2e92b418b96",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "139504c35409420f81e942a238acafc7"
     },
     "m_Name": "Add",
     "m_DrawState": {
@@ -3317,7 +3317,7 @@
     "m_Type": "UnityEditor.ShaderGraph.TimeNode",
     "m_ObjectId": "4b6c7f087a99467c9907f95f8bc8bb38",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "139504c35409420f81e942a238acafc7"
     },
     "m_Name": "Time",
     "m_DrawState": {
@@ -4626,7 +4626,7 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "7f3c945ba1614f66b7167b304a1f85b6",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "139504c35409420f81e942a238acafc7"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
@@ -4755,7 +4755,7 @@
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "87c04827d03f4cdab8deff21c7ce7559",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "139504c35409420f81e942a238acafc7"
     },
     "m_Name": "Add",
     "m_DrawState": {
@@ -4991,7 +4991,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SineNode",
     "m_ObjectId": "8d0335a217844eeb85e4ae34a09a95c4",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "139504c35409420f81e942a238acafc7"
     },
     "m_Name": "Sine",
     "m_DrawState": {
@@ -5074,8 +5074,8 @@
     "m_ObjectId": "8e36007601be442282b85c776e6d1dca",
     "m_Title": "Refraction",
     "m_Position": {
-        "x": -2715.999755859375,
-        "y": 959.0
+        "x": -2716.800048828125,
+        "y": 957.5999755859375
     }
 }
 
@@ -5458,7 +5458,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "9baa7bc842b748c49ce821af97cff925",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "139504c35409420f81e942a238acafc7"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -5710,7 +5710,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector3Node",
     "m_ObjectId": "a000e4e32470498d9eef94986e3354c4",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "139504c35409420f81e942a238acafc7"
     },
     "m_Name": "Vector 3",
     "m_DrawState": {
@@ -6030,7 +6030,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "af6a670a384c45a39e0a73883904fccb",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "139504c35409420f81e942a238acafc7"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -6773,7 +6773,7 @@
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "ccd711a81b2b41c3b386dae419c73338",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "139504c35409420f81e942a238acafc7"
     },
     "m_Name": "Add",
     "m_DrawState": {
@@ -6816,7 +6816,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PositionNode",
     "m_ObjectId": "cd116e4b77e84a2bada2a4ce1eba15ba",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "139504c35409420f81e942a238acafc7"
     },
     "m_Name": "Position",
     "m_DrawState": {
@@ -6890,7 +6890,7 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "d318e9ecff354499af82b59b036aa612",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "139504c35409420f81e942a238acafc7"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
@@ -7813,7 +7813,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PositionNode",
     "m_ObjectId": "f976cd0a557442dca5d8aa3d1bfe832b",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "139504c35409420f81e942a238acafc7"
     },
     "m_Name": "Position",
     "m_DrawState": {
