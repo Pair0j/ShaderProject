@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Distortion
+  m_Name: BD
   m_Shader: {fileID: -6465566751694194690, guid: 8f0a1cd4058a7f044acd02caa947e3df,
     type: 3}
   m_Parent: {fileID: 0}
@@ -44,6 +44,7 @@ Material:
     - _Amplitude: 0.5
     - _Blend: 0.04
     - _BlendModePreserveSpecular: 1
+    - _Blur_Value: 0.05
     - _CastShadows: 0
     - _Cull: 2
     - _DecalMeshBiasType: 0
