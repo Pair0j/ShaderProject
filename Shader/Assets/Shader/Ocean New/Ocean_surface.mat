@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Ocean
+  m_Name: Ocean_surface
   m_Shader: {fileID: -6465566751694194690, guid: ba5cdd6feeb33a54ca6f140483d558b2,
     type: 3}
   m_Parent: {fileID: 0}
