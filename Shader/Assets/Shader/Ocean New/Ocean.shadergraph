@@ -330,6 +330,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "10513b99fd754379980076f698a96218"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "9cfde39c57a84a08a69421fdc57c9a5b"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "16ad7bcb47c148a1a959b00bdd9c2fd2"
                 },
                 "m_SlotId": 0
@@ -616,7 +630,7 @@
             },
             "m_InputSlot": {
                 "m_Node": {
-                    "m_Id": "9cfde39c57a84a08a69421fdc57c9a5b"
+                    "m_Id": "10513b99fd754379980076f698a96218"
                 },
                 "m_SlotId": 0
             }
@@ -1656,8 +1670,8 @@
     "m_ObjectId": "139504c35409420f81e942a238acafc7",
     "m_Title": "Wave",
     "m_Position": {
-        "x": -2613.60009765625,
-        "y": -1476.0
+        "x": -2613.0,
+        "y": -1475.0
     }
 }
 
@@ -2990,8 +3004,8 @@
     "m_ObjectId": "3f3e2e10d6e445b6b5fdcc782d3784b8",
     "m_Title": "Base color",
     "m_Position": {
-        "x": -2852.800048828125,
-        "y": -188.79998779296876
+        "x": -2852.0,
+        "y": -188.0
     }
 }
 
@@ -5074,8 +5088,8 @@
     "m_ObjectId": "8e36007601be442282b85c776e6d1dca",
     "m_Title": "Refraction",
     "m_Position": {
-        "x": -2716.800048828125,
-        "y": 957.5999755859375
+        "x": -2716.0,
+        "y": 959.0
     }
 }
 
